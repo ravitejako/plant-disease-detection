@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.json
+!models/disease_info.json
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Dataset
+dataset/
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# OS specific
+.DS_Store
+Thumbs.db 

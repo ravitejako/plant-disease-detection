@@ -1,0 +1,684 @@
+{
+    "apple": {
+        "apple_scab": {
+            "name": "Apple Scab",
+            "description": "Fungal disease caused by Venturia inaequalis",
+            "symptoms": [
+                "Olive-green to brown spots on leaves",
+                "Dark, scabby lesions on fruits",
+                "Deformed fruits",
+                "Premature leaf drop"
+            ],
+            "treatments": [
+                "Apply protective fungicides",
+                "Remove fallen leaves",
+                "Prune to improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Proper tree spacing",
+                "Clean up fallen leaves"
+            ]
+        },
+        "black_rot": {
+            "name": "Black Rot",
+            "description": "Fungal disease caused by Botryosphaeria obtusa",
+            "symptoms": [
+                "Purple spots on leaves",
+                "Rotting fruit with black centers",
+                "Cankers on branches",
+                "Leaf spots with frogeye pattern"
+            ],
+            "treatments": [
+                "Prune out diseased branches",
+                "Remove mummified fruits",
+                "Apply fungicides"
+            ],
+            "preventive_measures": [
+                "Maintain tree vigor",
+                "Proper pruning",
+                "Good sanitation practices"
+            ]
+        },
+        "cedar_apple_rust": {
+            "name": "Cedar Apple Rust",
+            "description": "Fungal disease requiring both apple and cedar/juniper hosts",
+            "symptoms": [
+                "Bright orange-yellow spots on leaves",
+                "Raised lesions with black dots",
+                "Fruit deformation",
+                "Early defoliation"
+            ],
+            "treatments": [
+                "Remove nearby cedar trees",
+                "Apply preventive fungicides",
+                "Remove infected leaves"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Avoid planting near cedar trees",
+                "Maintain good air circulation"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Apple Tree",
+            "description": "Tree shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular pruning",
+                "Balanced fertilization",
+                "Proper irrigation"
+            ]
+        }
+    },
+    "blueberry": {
+        "healthy": {
+            "name": "Healthy Blueberry Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Proper soil pH maintenance",
+                "Adequate mulching",
+                "Regular pruning",
+                "Good air circulation"
+            ]
+        }
+    },
+    "cherry": {
+        "powdery_mildew": {
+            "name": "Powdery Mildew",
+            "description": "Fungal disease affecting leaves and fruit",
+            "symptoms": [
+                "White powdery coating on leaves",
+                "Curled or distorted leaves",
+                "Stunted growth",
+                "Reduced fruit quality"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected parts",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Proper spacing",
+                "Avoid overhead irrigation"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Cherry Tree",
+            "description": "Tree shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular pruning",
+                "Proper fertilization",
+                "Good air circulation"
+            ]
+        }
+    },
+    "corn": {
+        "cercospora_leaf_spot": {
+            "name": "Cercospora Leaf Spot Gray Leaf Spot",
+            "description": "Fungal disease causing gray to tan rectangular lesions",
+            "symptoms": [
+                "Rectangular gray lesions",
+                "Parallel-sided spots",
+                "Leaf blight",
+                "Premature death of leaves"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove crop debris",
+                "Crop rotation"
+            ],
+            "preventive_measures": [
+                "Plant resistant hybrids",
+                "Proper field drainage",
+                "Balanced fertilization"
+            ]
+        },
+        "common_rust": {
+            "name": "Common Rust",
+            "description": "Fungal disease causing rust-colored pustules",
+            "symptoms": [
+                "Circular to elongated brown pustules",
+                "Powdery spores on both leaf surfaces",
+                "Chlorotic spots around pustules"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected plants",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Early planting",
+                "Monitor regularly"
+            ]
+        },
+        "northern_leaf_blight": {
+            "name": "Northern Leaf Blight",
+            "description": "Fungal disease causing long elliptical lesions",
+            "symptoms": [
+                "Long, cigar-shaped lesions",
+                "Gray-green to tan color",
+                "Lesions parallel to leaf veins"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected debris",
+                "Crop rotation"
+            ],
+            "preventive_measures": [
+                "Plant resistant hybrids",
+                "Proper tillage practices",
+                "Balanced fertilization"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Corn Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Proper spacing",
+                "Regular fertilization",
+                "Adequate irrigation"
+            ]
+        }
+    },
+    "grape": {
+        "black_rot": {
+            "name": "Black Rot",
+            "description": "Fungal disease affecting leaves, shoots, and berries",
+            "symptoms": [
+                "Circular brown leaf spots",
+                "Black rotted fruit",
+                "Tiny black dots in lesions"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected fruit",
+                "Prune affected areas"
+            ],
+            "preventive_measures": [
+                "Good canopy management",
+                "Remove mummified fruit",
+                "Proper spacing"
+            ]
+        },
+        "esca": {
+            "name": "Esca (Black Measles)",
+            "description": "Complex fungal disease affecting wood and leaves",
+            "symptoms": [
+                "Tiger-striped leaf patterns",
+                "Berry spotting",
+                "Dried fruit clusters",
+                "Wood decay"
+            ],
+            "treatments": [
+                "Remove infected vines",
+                "Protect pruning wounds",
+                "Apply fungicides"
+            ],
+            "preventive_measures": [
+                "Clean pruning tools",
+                "Proper pruning timing",
+                "Avoid plant stress"
+            ]
+        },
+        "leaf_blight": {
+            "name": "Leaf Blight (Isariopsis Leaf Spot)",
+            "description": "Fungal disease causing spots on leaves",
+            "symptoms": [
+                "Dark brown leaf spots",
+                "Reddish-brown margins",
+                "Leaf chlorosis",
+                "Premature defoliation"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Proper vine training",
+                "Good sanitation",
+                "Adequate spacing"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Grape Vine",
+            "description": "Vine shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular pruning",
+                "Proper trellising",
+                "Good air circulation"
+            ]
+        }
+    },
+    "orange": {
+        "haunglongbing": {
+            "name": "Huanglongbing (Citrus Greening)",
+            "description": "Bacterial disease spread by Asian citrus psyllid",
+            "symptoms": [
+                "Yellow shooting",
+                "Leaf mottle",
+                "Asymmetric blotchy mottle",
+                "Small, lopsided fruits",
+                "Bitter fruit taste"
+            ],
+            "treatments": [
+                "Remove infected trees",
+                "Control psyllid populations",
+                "Nutritional supplements"
+            ],
+            "preventive_measures": [
+                "Regular monitoring",
+                "Psyllid control",
+                "Use disease-free nursery stock",
+                "Quarantine measures"
+            ]
+        }
+    },
+    "peach": {
+        "bacterial_spot": {
+            "name": "Bacterial Spot",
+            "description": "Bacterial disease affecting leaves and fruit",
+            "symptoms": [
+                "Small dark spots on leaves",
+                "Fruit spots and cracks",
+                "Shot-hole appearance",
+                "Defoliation"
+            ],
+            "treatments": [
+                "Copper-based sprays",
+                "Remove infected tissue",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Proper spacing",
+                "Avoid overhead irrigation"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Peach Tree",
+            "description": "Tree shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular pruning",
+                "Proper fertilization",
+                "Good sanitation"
+            ]
+        }
+    },
+    "pepper": {
+        "bacterial_spot": {
+            "name": "Bacterial Spot",
+            "description": "Bacterial disease affecting leaves and fruit",
+            "symptoms": [
+                "Small dark spots on leaves",
+                "Fruit lesions",
+                "Leaf yellowing",
+                "Defoliation"
+            ],
+            "treatments": [
+                "Copper-based sprays",
+                "Remove infected plants",
+                "Improve drainage"
+            ],
+            "preventive_measures": [
+                "Use disease-free seeds",
+                "Crop rotation",
+                "Proper spacing"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Pepper Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular watering",
+                "Good air circulation",
+                "Balanced fertilization"
+            ]
+        }
+    },
+    "potato": {
+        "early_blight": {
+            "name": "Early Blight",
+            "description": "Fungal disease affecting leaves, stems, and tubers",
+            "symptoms": [
+                "Dark brown concentric rings",
+                "Yellow areas around spots",
+                "Stem lesions",
+                "Tuber rot"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Crop rotation",
+                "Proper plant spacing",
+                "Good soil drainage"
+            ]
+        },
+        "late_blight": {
+            "name": "Late Blight",
+            "description": "Devastating fungal disease affecting all plant parts",
+            "symptoms": [
+                "Water-soaked spots",
+                "White fuzzy growth",
+                "Dark brown lesions",
+                "Tuber rot"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected plants",
+                "Destroy infected tubers"
+            ],
+            "preventive_measures": [
+                "Use certified seed",
+                "Plant resistant varieties",
+                "Monitor weather conditions"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Potato Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Proper irrigation",
+                "Good soil preparation",
+                "Regular monitoring"
+            ]
+        }
+    },
+    "raspberry": {
+        "healthy": {
+            "name": "Healthy Raspberry Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular pruning",
+                "Good air circulation",
+                "Proper trellising",
+                "Adequate spacing"
+            ]
+        }
+    },
+    "soybean": {
+        "healthy": {
+            "name": "Healthy Soybean Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Proper row spacing",
+                "Adequate drainage",
+                "Weed control",
+                "Crop rotation"
+            ]
+        }
+    },
+    "squash": {
+        "powdery_mildew": {
+            "name": "Powdery Mildew",
+            "description": "Fungal disease affecting leaves and stems",
+            "symptoms": [
+                "White powdery spots on leaves",
+                "Yellowing leaves",
+                "Distorted growth",
+                "Premature leaf death"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Proper spacing",
+                "Avoid overhead watering"
+            ]
+        }
+    },
+    "strawberry": {
+        "leaf_scorch": {
+            "name": "Leaf Scorch",
+            "description": "Fungal disease affecting leaves",
+            "symptoms": [
+                "Purple to red spots",
+                "Leaf margins turn brown",
+                "Center of spots lightens",
+                "Leaf death"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Proper spacing",
+                "Avoid overhead irrigation"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Strawberry Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Good soil drainage",
+                "Proper mulching",
+                "Regular monitoring"
+            ]
+        }
+    },
+    "tomato": {
+        "bacterial_spot": {
+            "name": "Bacterial Spot",
+            "description": "Bacterial disease affecting leaves, stems, and fruit",
+            "symptoms": [
+                "Small dark spots on leaves",
+                "Fruit spots with scab-like surface",
+                "Defoliation",
+                "Stem lesions"
+            ],
+            "treatments": [
+                "Copper-based sprays",
+                "Remove infected plants",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Use disease-free seeds",
+                "Crop rotation",
+                "Avoid overhead irrigation"
+            ]
+        },
+        "early_blight": {
+            "name": "Early Blight",
+            "description": "Fungal disease affecting leaves, stems, and fruit",
+            "symptoms": [
+                "Dark concentric rings",
+                "Yellow halo around spots",
+                "Stem lesions",
+                "Fruit rot"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve drainage"
+            ],
+            "preventive_measures": [
+                "Mulching",
+                "Proper spacing",
+                "Crop rotation"
+            ]
+        },
+        "late_blight": {
+            "name": "Late Blight",
+            "description": "Devastating fungal disease affecting all plant parts",
+            "symptoms": [
+                "Water-soaked spots",
+                "White fuzzy growth",
+                "Brown-black lesions",
+                "Fruit rot"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected plants",
+                "Destroy plant debris"
+            ],
+            "preventive_measures": [
+                "Plant resistant varieties",
+                "Good air circulation",
+                "Weather monitoring"
+            ]
+        },
+        "leaf_mold": {
+            "name": "Leaf Mold",
+            "description": "Fungal disease affecting leaves",
+            "symptoms": [
+                "Yellow spots on upper leaf surface",
+                "Olive-green mold on undersides",
+                "Leaf curling",
+                "Defoliation"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Reduce humidity"
+            ],
+            "preventive_measures": [
+                "Improve ventilation",
+                "Proper spacing",
+                "Avoid leaf wetness"
+            ]
+        },
+        "septoria_leaf_spot": {
+            "name": "Septoria Leaf Spot",
+            "description": "Fungal disease primarily affecting leaves",
+            "symptoms": [
+                "Small circular spots",
+                "Dark borders with light centers",
+                "Tiny black dots in spots",
+                "Lower leaf yellowing"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected leaves",
+                "Improve air flow"
+            ],
+            "preventive_measures": [
+                "Crop rotation",
+                "Proper spacing",
+                "Mulching"
+            ]
+        },
+        "spider_mites": {
+            "name": "Spider Mites Two-spotted Spider Mite",
+            "description": "Tiny arachnids that feed on plant cells",
+            "symptoms": [
+                "Stippling on leaves",
+                "Webbing on leaves",
+                "Leaf yellowing",
+                "Plant decline"
+            ],
+            "treatments": [
+                "Apply miticides",
+                "Use insecticidal soaps",
+                "Increase humidity"
+            ],
+            "preventive_measures": [
+                "Regular monitoring",
+                "Maintain plant vigor",
+                "Natural predators"
+            ]
+        },
+        "target_spot": {
+            "name": "Target Spot",
+            "description": "Fungal disease affecting leaves and fruit",
+            "symptoms": [
+                "Circular brown spots",
+                "Concentric rings",
+                "Fruit lesions",
+                "Stem cankers"
+            ],
+            "treatments": [
+                "Apply fungicides",
+                "Remove infected tissue",
+                "Improve air circulation"
+            ],
+            "preventive_measures": [
+                "Proper spacing",
+                "Avoid overhead irrigation",
+                "Good sanitation"
+            ]
+        },
+        "yellow_leaf_curl_virus": {
+            "name": "Tomato Yellow Leaf Curl Virus",
+            "description": "Viral disease transmitted by whiteflies",
+            "symptoms": [
+                "Leaf curling and yellowing",
+                "Stunted growth",
+                "Flower drop",
+                "Reduced yield"
+            ],
+            "treatments": [
+                "Remove infected plants",
+                "Control whiteflies",
+                "No cure available"
+            ],
+            "preventive_measures": [
+                "Use resistant varieties",
+                "Control whiteflies",
+                "Use reflective mulch"
+            ]
+        },
+        "mosaic_virus": {
+            "name": "Tomato Mosaic Virus",
+            "description": "Viral disease affecting leaves and fruit",
+            "symptoms": [
+                "Mottled leaves",
+                "Stunted growth",
+                "Deformed fruit",
+                "Yellow-green patterns"
+            ],
+            "treatments": [
+                "Remove infected plants",
+                "Control insects",
+                "No cure available"
+            ],
+            "preventive_measures": [
+                "Use virus-free seeds",
+                "Sanitation practices",
+                "Control insects"
+            ]
+        },
+        "healthy": {
+            "name": "Healthy Tomato Plant",
+            "description": "Plant shows no signs of disease",
+            "symptoms": [],
+            "treatments": [],
+            "preventive_measures": [
+                "Regular watering",
+                "Proper fertilization",
+                "Good air circulation"
+            ]
+        }
+    }
+} 
