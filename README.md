@@ -130,6 +130,27 @@ cd frontend
 npm install
 ```
 
+### Downloading the Dataset
+
+1. Download the PlantVillage dataset from Kaggle:
+   - Visit [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)
+   - Download the dataset
+   - Extract the contents to a directory named `dataset` in the project root
+
+2. The dataset should be organized in the following structure:
+```
+dataset/
+├── train/
+│   ├── plant_disease/
+│   └── healthy/
+├── valid/
+│   ├── plant_disease/
+│   └── healthy/
+└── test/
+    ├── plant_disease/
+    └── healthy/
+```
+
 ## Usage
 
 ### Training the Model
